@@ -17,7 +17,7 @@ const Hero = () => {
           <ReactTyped
             className="sm:text-3xl ss:text-2xl text-xl font-bold sm:pl-4 pl-2 py-4 text-gray-700"
             backDelay={1}
-            backSpeed={140}
+            backSpeed={100}
             cursorChar="|"
             fadeOutDelay={100}
             loop
@@ -25,9 +25,8 @@ const Hero = () => {
             showCursor
             smartBackspace
             startDelay={0}
-            stopped
-            strings={["BTB", "BTC", "SASS"]}
-            typeSpeed={120}
+            strings={["BTB", "SASS", "BTC"]}
+            typeSpeed={140}
             typedRef={function noRefCheck() {}}
           />
         </div>
